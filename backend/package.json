@@ -1,0 +1,16 @@
+{
+  "name": "sesapay-chatbot-backend",
+  "version": "1.0.0",
+  "description": "Backend sécurisé du chatbot de réclamations SesaPay",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
