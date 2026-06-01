@@ -10,7 +10,10 @@ const EMAIL_DEST = process.env.EMAIL_DESTINATAIRE;
 const PORT       = process.env.PORT || 3000;
 
 const transporter = nodemailer.createTransport({
-  service: "gmail",
+  host: "smtp.gmail.com",
+  port: 587,
+  secure: false,
+  family: 4,
   auth: { user: EMAIL_USER, pass: EMAIL_PASS }
 });
 
@@ -189,3 +192,4 @@ server.listen(PORT, function() {
   console.log("Email: " + EMAIL_USER);
   console.log("Tickets vers: " + EMAIL_DEST);
 });
+
