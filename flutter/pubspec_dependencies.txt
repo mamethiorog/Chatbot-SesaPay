@@ -1,0 +1,9 @@
+# Dépendances à ajouter dans pubspec.yaml
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+
+# lancement :
+# flutter pub get
