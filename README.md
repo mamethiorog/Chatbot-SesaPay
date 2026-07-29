@@ -50,7 +50,7 @@ Application Flutter (iOS + Android)
 - **Node.js** v18 ou supérieur
 - **npm** v8 ou supérieur
 - **Flutter** SDK 3.x
-- Un compte **Google AI Studio** → clé API Gemini
+- Un compte **Google AI Studio** → clé API Gemini 
 - Un cluster **MongoDB Atlas** (gratuit) ou MongoDB local
 - Un compte **Gmail** avec mot de passe d'application activé
 
@@ -61,7 +61,7 @@ Application Flutter (iOS + Android)
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/VOTRE_USERNAME/sesapay-chatbot.git
+git clone https://github.com/mamethiorog/sesapay-chatbot.git
 cd sesapay-chatbot/backend
 ```
 
@@ -326,8 +326,7 @@ pm2 startup
 
 ## 📞 Contact & Support
 
-- **Service client SesaPay** : +221 78 308 01 01 / +221 78 308 00 00
-- **Développeur** : Mame Thioro Gueye (stagiaire SesaPay)
+- **Développeur** : Mame Thioro Gueye (stagiaire SesaPay) +33745463453
 
 ---
 
